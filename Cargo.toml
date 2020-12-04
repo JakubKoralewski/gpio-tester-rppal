@@ -1,0 +1,13 @@
+[package]
+name = "gpio-tester-rppal"
+version = "0.1.0"
+authors = ["Jakub Koralewski <jakkor8@st.amu.edu.pl>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+quicli = "0.4"
+structopt = "0.3"
+anyhow = "1.0"
+rppal="0.11"
